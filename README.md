@@ -14,6 +14,16 @@ Setup script for a new ubuntu 20.04/20.10 desktop. (Current Configuration) src/s
 - name: Name or Descriptor of package
 - mode: Type of Install
 
+#### Example
+
+```csv
+name,mode,args
+Putty,apt,putty
+Libre Office,pass,
+ubuntu-make,snap,ubuntu-make --classic
+obs,repo,obs-studio ppa:obsproject/obs-studio
+```
+
 |mode|arg1|arg2|What?|
 |-|-|-|-|
 |apt||n/a|
