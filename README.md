@@ -1,7 +1,9 @@
 
 # Ubuntu-Setup
 
-Setup script for a new ubuntu 20.04/20.10 desktop.
+*requires pandas
+
+Setup script for a new ubuntu 20.04/20.10 desktop. (Current Configuration) src/setup.py reads packages.csv, then generates a ubuntu_setup.sh file.
 
 ---
 ### package.csv
