@@ -1,14 +1,7 @@
 
 # Ubuntu-Setup
 
-Setup script for a new ubuntu 20.10 desktop.
-
----
-
-## Run The Setup
-```bash
-wget -qO - https://raw.githubusercontent.com/hit12369/ubuntu-setup/master/setup.py | sudo python -
-```
+Setup script for a new ubuntu 20.04/20.10 desktop.
 
 ---
 ### package.csv
