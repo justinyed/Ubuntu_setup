@@ -107,7 +107,7 @@ obs,repo,obs-studio ppa:obsproject/obs-studio
 Cryptomator,repo,cryptomator ppa:sebastian-stenzel/cryptomator
 Cheese,apt,cheese
 gestures,pass,
-jetbrains toolbox,pass
+jetbrains toolbox,pass,
 OCR My Pdf,apt,ocrmypdf
 appimage launcher,repo,appimagelauncher ppa:appimagelauncher-team/stable
 Pdf Arranger,flatpak,com.github.jeromerobert.pdfarranger
