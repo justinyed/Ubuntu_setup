@@ -1,0 +1,119 @@
+name,mode,args
+texlive,apt,texlive-latex-extra
+pandoc,apt,pandoc
+Catfish,apt,catfish
+Anaconda Dependency,apt,libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+Putty,apt,putty
+Stacer,apt,stacer
+synaptic,apt,synaptic
+TimeShift,apt,timeshift
+Restic,apt,restic
+Midnight Commander,apt,mc
+Meson,apt,meson
+Java,apt,openjdk-11-jdk
+Git,apt,git
+Code Blocks,apt,codeblocks codeblocks-contrib
+Eclipse CDT (C++),apt,eclipse-cdt
+Rstudio,apt,r-base r-base-dev
+PWGen,apt,pwgen
+Seahorse,apt,seahorse
+GnuPG,apt,gnupg2
+Firejail,apt,firejail
+Firetools,apt,firetools
+tlp,apt,tlp
+powertop,apt,powertop
+nvtop,apt,nvtop
+xclip,apt,xclip
+net-tools,apt,net-tools
+Resctricted Addons,apt,ubuntu-restricted-addons
+7zip,apt,p7zip-full
+hardinfo,apt,hardinfo
+bleachbit,apt,bleachbit
+multiboot,apt,multiboot
+gnome boxes,apt,gnome-boxes
+wine,apt,wine64
+q4wine,apt,q4wine
+virt manager,apt,virt-manager
+virtual box,apt,virtualbox
+qemu,apt,qemu libvirt-daemon-system libvirt-clients ebtables dnsmasq-base
+youtube-dl,apt,youtube-dl
+ffmpeg,apt,ffmpeg
+ncal,apt,ncal
+Libre Office,pass,
+Geary,pass,
+espanso,pass,
+Ulauncher,pass,
+Brave,pass,
+Firefox,pass,
+Clonezilla,pass,
+Rescuezilla,pass,
+Duplicati,pass,
+rsync,pass,
+ufw,pass,
+VeraCrypt,pass,
+Prey,pass,
+vagrant,pass,
+Setzer,flatpak,org.cvfosammmm.Setzer
+jamovi spreadsheet,flatpak,org.jamovi.jamovi
+Discord,flatpak,com.discordapp.Discord
+Android Studio,flatpak,com.google.AndroidStudio
+Builder,flatpak,org.gnome.Builder
+Eclipse,flatpak,org.eclipse.Java
+Auth,flatpak,com.github.bilelmoussaoui.Authenticator
+green envy,flatpak,com.leinardi.gwe
+Only Office,snap,onlyoffice-desktopeditors
+latexmk,snap,latexmk
+Foliate,snap,foliate
+Chess,snap,knights
+vim,snap,vim
+Simplenote,snap,simplenote
+Slack,snap,slack --classic
+Session,snap,session-desktop
+Clock,snap,gnome-clocks
+translatium,snap,translatium
+QR Code Generator,snap,qr-code-generator-desktop
+Remmina,snap,remmina
+Qalculate,snap,qalculate
+VLC,snap,vlc
+Spotify,snap,spotify
+mackup,snap,mackup --classic
+Cmake,snap,cmake --classic
+IntelliJ IDEA,snap,intellij-idea-ultimate --classic
+PyCharm Pro,snap,[pycharm-professional|pycharm-community] --classic
+Clion Pro,snap,clion --classic
+VS Code Studio,snap,--classic code
+grv,snap,grv
+getenv,snap,getenv
+git Recall,snap,git-standup
+opengrok search,snap,opengrok
+Micro,snap,micro --classic
+Bitwarden,snap,bitwarden
+bitwarden cli,snap,bw
+KeePassXC,snap,keepassxc
+GTK Hash,snap,gtkhash
+fkill,snap,fkill
+htop,snap,htop
+cpustat,snap,cpustat
+fast,snap,fast
+Gimp,snap,gimp
+Inkscape,snap,inkscape
+Krita,snap,krita
+drawio,snap,drawio
+ubuntu-make,snap,ubuntu-make --classic
+docker,snap,docker
+Transmission,repo,transmission-gtk transmission-cli transmission-common transmission-daemon ppa:transmissionbt/ppa
+papirus-icon-theme,repo,papirus-icon-theme ppa:papirus/papirus
+obs,repo,obs-studio ppa:obsproject/obs-studio
+Cryptomator,repo,cryptomator ppa:sebastian-stenzel/cryptomator
+Cheese,apt,cheese
+gestures,pass,
+jetbrains toolbox,pass
+OCR My Pdf,apt,ocrmypdf
+appimage launcher,repo,appimagelauncher ppa:appimagelauncher-team/stable
+Pdf Arranger,flatpak,com.github.jeromerobert.pdfarranger
+Tor Browser,flatpak,com.github.micahflee.torbrowser-launcher
+Video Downloader,flatpak,com.github.unrud.VideoDownloader
+Typora Key,pass,https://typora.io/linux/public-key.asc
+Typora,pass,https://typora.io/linux ./
+Obsidian,flatpak,md.obsidian.Obsidian
+jamovi spreadsheet,flatpak,org.jamovi.jamovi
