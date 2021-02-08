@@ -1,44 +1,51 @@
 
 # Ubuntu-Setup
 
-Setup script for a new ubuntu 20.10 desktop.
+*requires pandas
 
----
-
-## Run The Setup
-```bash
-wget -qO - https://raw.githubusercontent.com/hit12369/ubuntu-setup/master/setup.py | sudo python -
-```
+Setup script for a new ubuntu 20.04/20.10 desktop. (Current Configuration) src/setup.py reads packages.csv, then generates a ubuntu_setup.sh file.
 
 ---
 ### package.csv
 
 ```python
-# header: name,mode,arg1,arg2
+# header: name,mode,args
 ```
 - name: Name or Descriptor of package
 - mode: Type of Install
+
+#### Example
+
+```csv
+name,mode,args
+Putty,apt,putty
+Libre Office,pass,
+ubuntu-make,snap,ubuntu-make --classic
+obs,repo,obs-studio ppa:obsproject/obs-studio
+```
 
 |mode|arg1|arg2|What?|
 |-|-|-|-|
 |apt||n/a|
 |snap||n/a|
-|flat||n/a|
-|appimage|url|n/a|
-|deb|url|n/a|
+|flatpak||n/a|
 |raw|executable bash|n/a|
 |repo||repo (ppa)|
 |pass|n/a|n/a|
 |Future...
+|deb|url|n/a|
 |ext||n/a|
 |pip||n/a|
+|appimage|url|n/a|
+
 ---
 
 ## Features
-- Install Packages (Extensions, App Images, Deb, Apt, Snap, Flat Pak, etc.)
+- Install Packages (Apt, Snap, Flat Pak, etc.)
 
 ### Future Features
 
+- Install Packages (Extensions, App Images, Deb, etc.)
 - Setup Applications
     - Setup Browser*
     - Setup Email
