@@ -6,8 +6,18 @@ import pandas as pd
 
 def intitialize():
 
-    script.write("# Initialize...\n")
+    script.write("#!/bin/bash")
+    # Update pre-installed packages and Clean up
+    script.write(f"# {'-'*40} \n")
+    script.write("# Update & Clean-up\n")
+    sudo('dpkg --configure -a')
+    apt('update')
+    apt('upgrade')
+    apt('dist-upgrade')
+    apt('autoremove')
+    exec('clear')
 
+    script.write("# Initialize...\n")
     # Setup signal handler
     signal.signal(signal.SIGINT, exit)
 
@@ -56,16 +66,6 @@ def intitialize():
     # exec(
     #     'curl - s https: // brave-browser-apt-release.s3.brave.com/brave-core.asc | apt-key - -keyring / etc/apt/trusted.gpg.d/brave-browser-release.gpg add - & & echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | tee / etc/apt/sources.list.d/brave-browser-release.list & & sudo apt update & & sudo apt-get install - yq brave-browser')
 
-    exec('clear')
-
-    # Update pre-installed packages and Clean up
-    script.write(f"# {'-'*40} \n")
-    script.write("# Update & Clean-up\n")
-    sudo('dpkg --configure -a')
-    apt('update')
-    apt('upgrade')
-    apt('dist-upgrade')
-    apt('autoremove')
     exec('clear')
 
 
@@ -150,7 +150,8 @@ install_mode = {
     'deb': install_deb,
     'raw': exec,
     'repo': install_repo,
-    'key': apt_key
+    'key': apt_key,
+    'ext': install_gnome
 }
 
 

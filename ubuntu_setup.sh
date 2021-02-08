@@ -35,7 +35,7 @@ sudo apt-get -yq dist-upgrade
 sudo apt-get -yq autoremove
 clear
 # ---------------------------------------- 
-# Package Installation(117)...
+# Package Installation(101)...
 ## texlive - mode: apt
 sudo apt-get -yq install texlive-latex-extra
 ## pandoc - mode: apt
@@ -62,22 +62,12 @@ sudo apt-get -yq install meson
 sudo apt-get -yq install openjdk-11-jdk
 ## Git - mode: apt
 sudo apt-get -yq install git
-## Code Blocks - mode: apt
-sudo apt-get -yq install codeblocks codeblocks-contrib
-## Eclipse CDT (C++) - mode: apt
-sudo apt-get -yq install eclipse-cdt
 ## Rstudio - mode: apt
 sudo apt-get -yq install r-base r-base-dev
 ## PWGen - mode: apt
 sudo apt-get -yq install pwgen
-## Seahorse - mode: apt
-sudo apt-get -yq install seahorse
-## GnuPG - mode: apt
-sudo apt-get -yq install gnupg2
 ## Firejail - mode: apt
-sudo apt-get -yq install firejail
-## Firetools - mode: apt
-sudo apt-get -yq install firetools
+sudo apt-get -yq install firejail firetools
 ## tlp - mode: apt
 sudo apt-get -yq install tlp
 ## powertop - mode: apt
@@ -116,24 +106,12 @@ sudo apt-get -yq install youtube-dl
 sudo apt-get -yq install ffmpeg
 ## ncal - mode: apt
 sudo apt-get -yq install ncal
-## Libre Office - mode: pass
-## Geary - mode: pass
 ## espanso - mode: pass
-## Ulauncher - mode: pass
 ## Brave - mode: pass
-## Firefox - mode: pass
-## Clonezilla - mode: pass
-## Rescuezilla - mode: pass
-## Duplicati - mode: pass
-## rsync - mode: pass
-## ufw - mode: pass
 ## VeraCrypt - mode: pass
 ## Prey - mode: pass
-## vagrant - mode: pass
 ## Setzer - mode: flatpak
 sudo flatpak install -y flathub org.cvfosammmm.Setzer
-## jamovi spreadsheet - mode: flatpak
-sudo flatpak install -y flathub org.jamovi.jamovi
 ## Discord - mode: flatpak
 sudo flatpak install -y flathub com.discordapp.Discord
 ## Android Studio - mode: flatpak
@@ -246,7 +224,12 @@ sudo apt-get -yq install cryptomator
 sudo apt-get -yq install cheese
 ## gestures - mode: pass
 ## jetbrains toolbox - mode: pass
-## appimage launcher - mode: pass
+## OCR My Pdf - mode: apt
+sudo apt-get -yq install ocrmypdf
+## appimage launcher - mode: repo
+sudo apt-add-repository -ys "ppa:appimagelauncher-team/stable"
+sudo apt-get -yq update
+sudo apt-get -yq install appimagelauncher 
 ## Pdf Arranger - mode: flatpak
 sudo flatpak install -y flathub com.github.jeromerobert.pdfarranger
 ## Tor Browser - mode: flatpak
@@ -255,8 +238,8 @@ sudo flatpak install -y flathub com.github.micahflee.torbrowser-launcher
 sudo flatpak install -y flathub com.github.unrud.VideoDownloader
 ## Typora Key - mode: pass
 ## Typora - mode: pass
-## Obsidian - mode: flatpak
-sudo flatpak install -y flathub md.obsidian.Obsidian
-## jamovi spreadsheet - mode: flatpak
-sudo flatpak install -y flathub org.jamovi.jamovi
+## woe usb burner - mode: repo
+sudo apt-add-repository -ys "ppa:tomtomtom/woeusb"
+sudo apt-get -yq update
+sudo apt-get -yq install woeusb 
 sudo apt-get -yq autoclean
